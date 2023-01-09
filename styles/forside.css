@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.forside_overskrift {
+  font-size: 110px;
+  text-align: center;
+  margin: 10px;
+  font-family: "East Sea Dokdo";
+  margin-top: 60px;
+}
+
+.forside_overskrift1 {
+  font-size: 70px;
+  text-align: center;
+  margin: 10px;
+  font-family: "East Sea Dokdo";
+}
+
+.forside_overskrift2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px;
+  font-family: "East Sea Dokdo";
+  margin-bottom: 350px;
+}
+
+body {
+  background-image: url("../IMG/solopgang.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}

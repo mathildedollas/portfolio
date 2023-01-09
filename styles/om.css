@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-image: url("../IMG/baggrund.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.om_overskrift {
+  font-family: "East Sea Dokdo";
+  font-size: 70px;
+  margin: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.text1,
+.text2 {
+  margin-bottom: 30px;
+  line-height: 170%;
+  font-family: "Heebo", sans-serif;
+}
+
+@media (min-width: 750px) {
+  .om_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+.portræt {
+  width: 80%;
+  margin: 20px;
+}
+
+.text {
+  margin: 20px;
+}
+
+.icon {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}

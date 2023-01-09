@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-image: url("../IMG/baggrund.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.ux_overskrift {
+  font-family: "East Sea Dokdo";
+  font-size: 70px;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+}
+
+@media (min-width: 750px) {
+  .uxgrid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .img,
+  .text1,
+  .text2 {
+    width: 90%;
+    text-align: justify;
+  }
+}
+
+.img2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(234, 234, 234);
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.text {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: black;
+  background-color: #d9d4ca;
+}
+
+.website_link {
+  padding: 20px;
+  text-align: center;
+}

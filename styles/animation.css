@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../IMG/baggrund.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.animation_overskrift {
+  font-family: "East Sea Dokdo";
+  font-size: 70px;
+  text-align: center;
+  margin: 40px;
+}
+
+.computer {
+  width: 60%;
+  margin-left: 40px;
+  place-items: center;
+}
+
+.hr1 {
+  border-top: 3px black;
+  margin: 50px;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+.button {
+  border: black;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 150px;
+  width: 30%;
+  border-radius: 50%;
+  background-color: grey;
+  font-size: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
+@media (min-width: 700px) {
+  .animation_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+    gap: 5px;
+  }
+}
+
+@media (min-width: 700px) {
+  .animation_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    gap: 5px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .tema3_text {
+    margin: 100px;
+  }
+}
+
+.spil_skitser {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+@media (min-width: 700px) {
+  .skitse_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 13%;
+  }
+
+  .skitse {
+    width: 75%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+}
+
+.skitser {
+  background-color: rgb(196, 196, 196);
+  padding-top: 5px;
+}
+
+.text1 {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 700px) {
+  .assets_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .spil_assets {
+    margin: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .svgtitel {
+    width: 70%;
+    margin: auto;
+  }
+
+  .svg1,
+  .svg2,
+  .svg3,
+  .svg4 {
+    width: 65%;
+    margin: auto;
+  }
+}
