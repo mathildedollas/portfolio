@@ -59,12 +59,12 @@ a {
 @media (min-width: 750px) {
   .indhold_1_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
     background-color: white;
     padding: 30px;
-    margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -81,10 +81,4 @@ a {
 button {
   padding: 15px;
   border: black;
-}
-
-.website_link,
-.redesign_link,
-.procesdoku_link {
-  padding: 20px;
 }

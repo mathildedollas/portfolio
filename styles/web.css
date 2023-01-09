@@ -80,12 +80,14 @@ h2 {
 }
 
 .emnesite,
-.tema2 {
+.tema2,
+.studeistart {
   margin-top: 20px;
 }
 
 .tema2_text,
-.emnesite_text {
+.emnesite_text,
+.studeistart_text {
   text-align: justify;
 }
 
@@ -117,7 +119,7 @@ h2 {
 
   .web_1_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
     padding: 30px;
     padding-top: 20px;
@@ -135,6 +137,7 @@ h2 {
   background-color: rgb(193, 193, 193);
 }
 
+.studeistart_link,
 .website_link,
 .wireframe_link {
   margin: 30px;
