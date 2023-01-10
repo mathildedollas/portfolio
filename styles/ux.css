@@ -52,6 +52,36 @@ h2 {
   }
 }
 
+.hr1 {
+  border-top: 4px black;
+  margin: 50px;
+}
+
+@media (min-width: 750px) {
+  .ux_grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+  }
+
+  .grid3 {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 60%;
+  }
+
+  .grid1 {
+    grid-row: span 1;
+  }
+
+  .grid2 {
+    grid-row: span 1;
+  }
+}
+
 .img2 {
   padding-left: 100px;
   padding-right: 100px;
