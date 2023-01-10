@@ -38,16 +38,17 @@ h2 {
 
 p {
   font-family: "Heebo", sans-serif;
+  text-align: justify;
 }
 
 @media (min-width: 700px) {
   .textgrid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 12%;
+    margin-right: 12%;
     margin-bottom: 30px;
-    gap: 50px;
+    gap: 5%;
   }
 }
 
@@ -128,10 +129,11 @@ p {
 
 .text1 {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: justify;
 }
 
 @media (min-width: 700px) {
