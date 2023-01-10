@@ -40,22 +40,40 @@ p {
   font-family: "Heebo", sans-serif;
 }
 
-.button {
-  border: black;
-  color: rgb(0, 0, 0);
-  padding: 30px;
-  border-radius: 50%;
-  width: 100%;
-  background-color: grey;
-  font-size: 15px;
-  font-family: "Kanit", sans-serif;
+@media (min-width: 700px) {
+  .textgrid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    gap: 50px;
+  }
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+@media (min-width: 750px) {
+  .web_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+.link {
+  font-family: "Kanit", sans-serif;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  background-color: rgb(193, 193, 193);
+}
+
+.spil_link,
+.statemachine,
+.aktivitets {
   margin: 30px;
 }
 
@@ -72,7 +90,6 @@ p {
   .animation_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 60px;
     gap: 5px;
@@ -80,10 +97,6 @@ p {
 
   h2 {
     text-align: center;
-  }
-
-  .tema3_text {
-    margin: 100px;
   }
 }
 
@@ -109,8 +122,8 @@ p {
 }
 
 .skitser {
-  background-color: rgb(196, 196, 196);
   padding-top: 5px;
+  background-color: rgb(193, 193, 193, 0.4);
 }
 
 .text1 {

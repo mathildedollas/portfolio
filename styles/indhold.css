@@ -67,7 +67,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.7);
     margin-top: 30px;
     padding: 30px;
     margin-bottom: 30px;
